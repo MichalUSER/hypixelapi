@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	a := api.Init{Key: "de09bc71-09be-4b8f-bd6f-2dd4a23d85ac"}
+	a := api.Init{Key: "your-key"}
 	name := "gamerboy80"
 	leaderboardsJSON := a.GetLeaderboards()
 	leaderboards := a.InterfaceToMap(leaderboardsJSON["leaderboards"])
